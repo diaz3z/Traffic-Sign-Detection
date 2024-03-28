@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 47
+names: ['0', 'ANIMALS', 'BVelocidad50', 'CONSTRUCTION', 'CYCLES CROSSING', 'DANGER', 'NO ENTRY', 'SCHOOL CROSSING', 'STOP', 'bend', 'bend left', 'bus_stop', 'crosswalk', 'give way', 'give_way', 'go left', 'go right', 'go right or straight', 'go straight', 'keep right', 'left_turn', 'no overtaking', 'no traffic both ways', 'no_overtaking_truck', 'no_stop', 'no_waiting', 'priority at next intersection', 'priority road', 'restriction ends -overtaking-', 'right_turn', 'road narrows', 'road_main', 'road_rough', 'road_work', 'rough_road', 'round_about', 'roundabout', 'slippery road', 'speed limit 30', 'speed limit 50', 'speed_limit_30', 'speed_limit_50', 'stop', 'traffic signal', 'truck', 'uneven road', 'warning']
+
+roboflow:
+  workspace: mohammad-zaid-p9lpu
+  project: traffic-sign-detection-nebdz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohammad-zaid-p9lpu/traffic-sign-detection-nebdz/dataset/2
