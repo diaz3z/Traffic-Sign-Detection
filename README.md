@@ -89,7 +89,7 @@ python run.py
 
 ## License
 
-[Specify your license here]
+MIT License
 
 ## Contributing
 
